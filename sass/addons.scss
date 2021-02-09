@@ -1,0 +1,208 @@
+.faq{
+	margin-top: 0px !important;
+}
+.faq p,.faq h4{
+	text-align: center;
+}
+.top-banner h2 {
+	margin: 0 0 20px;
+	font: 600 35px/1 "Roboto", sans-serif;
+	letter-spacing: 0px;
+} 
+.section-header h2{
+
+	font: 600 48px/55px "Roboto", sans-serif;
+}
+.reviews .section-header h2{
+
+	font: 600 35px/35px "Roboto", sans-serif;
+}
+.review img{
+	width: 110px;
+}
+
+.item{
+	max-width: 25%;
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.item_card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing:border-box;
+	min-height: 250px;
+	min-width: 250px;
+	max-width: 250px;
+	width: 100%;
+	// padding: 10px;
+
+	.title{
+		display: block;
+		background: #fff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.text{
+		display: none;
+		min-height: 250px;
+		z-index: 999;
+		background: rgb(0 161 228 / 0.5);
+		color: #fff;
+		padding: 10px;
+		box-sizing: border-box;
+		font-size: 13px;
+	}
+	.text:first-child{
+		padding-bottom: 0;
+	}
+	.text:last-child{
+		// padding-top: 0;
+	}
+
+}
+.item_card:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+.item_card:hover:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #948f8d69;
+}
+.item_card:hover{
+	a{
+		color: #fff;
+		.title{
+			display: none;
+		}
+	}
+	.text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
+.item a:first-child{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.phone-ico{
+	margin-bottom: 0 !important;
+	margin-right: 10px;
+}
+.item .text{
+	/*color: #fff;*/
+}
+.sites_box{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	max-width: 1070px;
+	margin: 0 auto;
+}
+.phone__text{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	// margin-top: 10px;
+}
+.phone-ico{
+	width: 40px !important;
+}
+
+.phone_left{
+	display: flex;
+	align-items: center;
+}
+.split-column .texts p{
+	color: #000 !important;
+}
+.split-column .texts p {
+	margin: 0;
+	font: 300 22px/32px "Roboto", sans-serif;
+}
+.people h2{
+	margin-top: 60px !important;
+	margin-bottom: 70px !important;
+}
+.flip-box-container .contact-box{
+	border: 1px solid #000;
+}
+.flip-box-part{
+	left: 65%;
+}
+.the-product{
+	padding-top: 50px;
+}
+/*.sites_box .row{
+	display: flex;
+	}*/
+	.people .img_cont{
+		padding-bottom: 20px;
+	}
+	@media (max-width: 1024px){
+		.split-column .texts p {
+			margin: 0;
+			font: 300 16px/25px "Roboto", sans-serif;
+		}
+		.flip-box-part{
+			left: 0;
+			}}
+			@media (max-width: 480px){
+				.flip-box-part{
+					left: 0;
+				}
+				.faqs{
+					padding-top: 30px;
+				}
+				.how-it-works h2{
+					font-size: 20px;
+					line-height: 25px;
+				}
+				.section-header.v2:after{
+					display: none;
+				}
+				.how-it-works,.the-product,.reviews{
+					padding-top: 50px;
+				}
+				.section-header{
+					margin-bottom: 25px;
+				}
+				.reviews .section-header h2 {
+					font: 600 20px/25px "Roboto", sans-serif;
+				}
+				.people h2, .faqs h2{
+					font-size: 35px !important;
+					margin-top: 20px !important;
+					margin-bottom: 50px !important;
+				}
+				.item{
+					max-width: 25%;
+					min-width: 250px;
+					margin-bottom: 20px;
+				}
+			}
+			@media (max-width: 1199px){
+				.top-banner h2 {
+					font-size: 30px;
+				}
+			}

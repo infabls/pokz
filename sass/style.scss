@@ -1,0 +1,257 @@
+/* ------------------------------------------------
+
+Page	: Proland CSS
+Version : 1.0
+Author  : Surjith S M
+URI     : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+-------------------------------------------------- */
+
+
+/*=====================================================================
+
+
+@Default Styles
+
+Table of Content:
+01/ Prefix
+02/ Header
+03/ The Product
+04/ How it Works
+05/ The Benefits
+06/ Left Right Content
+07/ Our Collection
+08/ The Watch
+09/ Splt Columns
+10/ Reviews
+11/ FAQs
+12/ Tech Specs
+13/ Our Team
+14/ Timeline
+15/ Mobile App
+16/ Newsletter
+17/ Contact
+18/ Footer
+19/ Page Header
+20/ Blog
+21/ Sidebar
+22/ Comments
+23/ Products
+24/ Exit Popup
+
+=====================================================================*/
+
+
+/*========= @import Global & Variables ==========*/
+
+@import "variables";
+@import "global";
+
+/*========= @import Components ==========*/
+
+
+/*=========Prefix==========*/
+
+@import "components/prefix";
+
+/*=========Header==========*/
+
+@import "components/header";
+
+/*=========The Product==========*/
+
+@import "components/the-product";
+
+/*=========How it Works==========*/
+
+@import "components/how-it-works";
+
+/*=========How it Works==========*/
+
+@import "components/the-benefits";
+
+/*=========Left Right Content==========*/
+
+@import "components/left-right";
+
+/*=========Our Collection==========*/
+
+@import "components/our-collection";
+
+/*=========The Watch==========*/
+
+@import "components/the-watch";
+
+/*=========Split Columns==========*/
+
+@import "components/split-columns";
+
+/*=========Reviews==========*/
+
+@import "components/reviews";
+
+/*=========FAQ==========*/
+
+@import "components/faqs";
+
+/*=========Tech Specs==========*/
+
+@import "components/tech-specs";
+
+/*=========Team==========*/
+
+@import "components/team";
+
+/*=========Timeline==========*/
+
+@import "components/timeline";
+
+/*=========Mobile App==========*/
+
+@import "components/mobile-app";
+
+/*=========Newsletter==========*/
+
+@import "components/newsletter";
+
+/*=========Order_service=========*/
+@import "components/order_service";
+/*=========Contact==========*/
+
+@import "components/contact";
+
+/*=========Footer==========*/
+
+@import "components/footer";
+
+/*=========Page Header==========*/
+
+@import "components/page-header";
+
+/*=========Blog Section==========*/
+
+@import "components/blog-section";
+
+/*========= Sidebar ==========*/
+
+@import "components/sidebar";
+
+/*========= Comments ==========*/
+
+@import "components/comments";
+
+/*========= Product POPUP ==========*/
+
+@import "components/product";
+
+/*========= Exit Popup ==========*/
+
+@import "components/exit-popup";
+
+/*========= Pricing ==========*/
+
+@import "components/pricing";
+
+@import "addons";
+
+
+// ADDONS
+.top-banner{
+	    background: rgb(214 214 214 / 31%);
+}
+// header.row {
+//   background: url(../images/ntpl/first_background.png) no-repeat scroll center bottom;
+//   background-size: cover;
+// }
+.container-head{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navbar {
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.lang{
+		display: flex;
+		flex-direction: column;
+		a{
+			color:#000;
+			text-transform: uppercase;
+			text-decoration: none;
+			text-align: center;
+			padding: 3px;
+		}
+		.kz{
+			background: #FFED00;
+		}
+		.ru{
+			background: #EF7F1A;
+		}
+		.eng{
+			background: #E31E24;
+		}
+	}
+}
+
+.pause2{
+	background: url(../../images/ntpl/pause2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 45px 0;
+}
+
+@media (min-width:1201px) {
+	.pause2{
+		background-size: cover;
+	}	
+}
+.people{
+	padding-top: 30px;
+	text-align: center;
+	background: url(../../images/ntpl/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	// max-width: 1190px;
+	// margin: 0 auto;
+	h2{
+		font: 600 48px/29px "Roboto", sans-serif;
+		margin-top: 15px;
+		margin-bottom: 50px;
+	}
+	.img_cont{
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 1190px;
+		margin: 0 auto;
+	}
+	.image{
+		width: 300px;
+		margin-bottom: 20px;
+		img{
+			width: 100%;
+		}
+	}
+
+}
+@media (max-width: 960px) {
+	.pause2{
+		padding: 27px 0;
+	}
+}
+@media (max-width: 480px) {
+	.pause2{
+		display: none;
+		h2{
+			line-height: 39px;
+		}
+	}
+}

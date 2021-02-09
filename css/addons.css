@@ -1,0 +1,19 @@
+
+/*header and menu mobile positioning*/
+@media (max-width: 991px) {
+
+.container-head {
+	display: block;
+}
+.navbar .lang {
+	width: 60px;
+	float: left;
+}
+.navbar-brand {
+	margin-left: 30px !important;
+}
+header.row .navbar .navbar-header .navbar-toggle {
+	top: 15px;
+}
+
+}
