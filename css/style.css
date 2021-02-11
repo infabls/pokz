@@ -844,7 +844,7 @@ textarea.form-control {
   }
 }
 header.row {
-  background: url(../images/ntpl/first_background.jpg) no-repeat scroll center bottom;
+  background: url('/img/new/header.jpg') no-repeat scroll center bottom;
   background-size: cover;
 }
 
@@ -3909,7 +3909,7 @@ footer.row {
 }
 
 .pause2 {
-  background: url(../../images/ntpl/pause2.jpg);
+  background: url(/img/new/pause2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 45px 0;
@@ -4063,7 +4063,7 @@ header.row .navbar .navbar-header .navbar-toggle[aria-expanded=true] span {
   background: #778897;
 }
 header.row .navbar.is-scrolling {
-  background: url("../../images/ntpl/header.jpg");
+  background: url("/img/new/head.png");
   box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
 }
 header.row .navbar.is-scrolling .nav li a {
@@ -4702,4 +4702,8 @@ footer.row .menu-rights p {
 }
 .pricing--featured .pricing__content li {
   color: #fff;
+}
+
+.faqs {
+  background:url('/img/new/contacts.jpg');
 }
