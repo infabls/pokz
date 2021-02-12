@@ -713,12 +713,12 @@ textarea.form-control {
   transition: all 300ms linear 0s;
 }
 .navbar.is-scrolling {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .navbar.is-scrolling .navbar-header .navbar-brand {
-  width: 203px;
+/*  width: 203px;
   height: 40px;
-}
+*/}
 .navbar.is-scrolling #main-navbar {
   padding-top: 0;
 }
@@ -4064,7 +4064,7 @@ header.row .navbar .navbar-header .navbar-toggle[aria-expanded=true] span {
 }
 header.row .navbar.is-scrolling {
   background: url("/img/new/head.png");
-  box-shadow: 0 2px 42px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 7px 4px rgb(0 0 0 / 45%);
 }
 header.row .navbar.is-scrolling .nav li a {
   color: #8f969d;
