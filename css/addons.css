@@ -34,14 +34,13 @@
 }
 
 .section-header h2 {
-	/*font-family: Scada;*/
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 60px;
-	letter-spacing: 0em;
-	text-align: center;
-	color: #272E3E;
+	font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #272E3E;
 }
 
 .mytextblack {
@@ -65,4 +64,14 @@
 	.split-column .image img {
 		border-radius: 0;
 	}
+}
+.how-it-works .section-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.how-it-works h2 {
+	padding-top: 100px;
 }
