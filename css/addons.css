@@ -2,21 +2,22 @@
 /*header and menu mobile positioning*/
 @media (max-width: 991px) {
 
-.container-head {
-	display: block;
-}
-.navbar .lang {
-	width: 60px;
-	float: left;
-}
-.navbar-brand {
-	margin-left: 30px !important;
-}
-header.row .navbar .navbar-header .navbar-toggle {
-	top: 15px;
-}
+	.container-head {
+		display: block;
+	}
+	.navbar .lang {
+		width: 60px;
+		float: left;
+	}
+	.navbar-brand {
+		margin-left: 30px !important;
+	}
+	header.row .navbar .navbar-header .navbar-toggle {
+		top: 15px;
+	}
 
 }
+
 .top-banner {
 	min-height: 500px;
 }
@@ -45,11 +46,23 @@ header.row .navbar .navbar-header .navbar-toggle {
 
 .mytextblack {
 	background: #272E3E;
-	color: #fff !important;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 0px;
+
 }
+.split-column .image img {
+    box-shadow: 0 0 17px 20px #00000047;
+    border-radius: 15px;
+}
+
 @media (max-width: 600px) {
 	header.row  {
 		background: url(/img/new/mobile.jpg) no-repeat scroll center bottom !important;
 		background-size: cover;
+	}
+	.split-column .image img {
+		border-radius: 0;
 	}
 }
