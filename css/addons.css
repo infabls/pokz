@@ -20,3 +20,36 @@ header.row .navbar .navbar-header .navbar-toggle {
 .top-banner {
 	min-height: 500px;
 }
+
+#product {
+	margin-top: 120px;
+}
+
+#things .texts p {
+	color: #FFF !important;
+}
+#things .split-column {
+	background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.section-header h2 {
+	/*font-family: Scada;*/
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #272E3E;
+}
+
+.mytextblack {
+	background: #272E3E;
+	color: #fff !important;
+}
+@media (max-width: 600px) {
+	header.row  {
+		background: url(/img/new/mobile.jpg) no-repeat scroll center bottom !important;
+		background-size: cover;
+	}
+}
