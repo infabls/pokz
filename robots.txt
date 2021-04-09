@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://me.qwmo.net/sitemap.xml
+Sitemap: https://pokz.info/sitemap.xml
