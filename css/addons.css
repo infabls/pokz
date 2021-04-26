@@ -71,6 +71,28 @@
     border-radius: 15px;
 }
 
+footer.row {
+	background-color: #FBBF0E !important;
+	color: #fff !important;
+}
+footer.row a {
+	color: #fff;
+}
+footer.row .menu-rights p {
+	color: #fff !important;
+}
+.add{
+    display: flex;
+    align-items: center;
+}
+.add img{
+	width: 32px;
+    margin-right: 10px;
+}
+.add p{
+    margin: 0;
+}
+
 @media (max-width: 600px) {
 	header.row  {
 		background: url(/img/new/mobile.jpg) no-repeat scroll center bottom !important;
