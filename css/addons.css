@@ -112,3 +112,29 @@ footer.row .menu-rights p {
 .how-it-works h2 {
 	padding-top: 100px;
 }
+footer .col-md-5{
+	display: flex;
+	justify-content: flex-start;
+}
+footer .menu-rights, footer .col-md-2,footer .col-md-3,footer .col-md-4{
+	display: flex;
+	align-items: center;
+}
+
+footer .right{
+	text-align: left;
+}
+footer .col-md-2 img,footer .col-md-3 img,footer .col-md-4 img{
+	width: 32px;
+	margin-right: 10px;
+}
+@media (max-width: 480px) {
+footer .menu-rights{
+	flex-direction: column;
+	
+
+}
+footer .menu-rights .col-md-5,footer .menu-rights .col-md-4,footer .menu-rights .col-md-3,footer .menu-rights .col-md-2{
+margin-bottom: 10px;
+}
+}
